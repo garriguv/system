@@ -11,9 +11,6 @@ set guioptions=r
 " Enable syntax highlighting
 syntax on
 
-" Color scheme
-colorscheme molokai
-
 " Color invisible characters
 highlight NonText ctermfg=DarkGrey
 highlight SpecialKey ctermfg=DarkGrey
@@ -27,7 +24,6 @@ set cursorline
 
 " Search
 set ignorecase
-set incsearch
 
 " Safety
 set undofile
@@ -40,7 +36,6 @@ set undodir=/tmp/.vim_undo
 set wrap
 set expandtab
 set formatoptions=qrn1
-set autoindent
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
@@ -115,3 +110,15 @@ nnoremap <Leader>et :tabe <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 
 " Repeat last macro instead of going to ex mode
 nnoremap Q @@
+
+" Plugins
+
+" fzf
+nnoremap <C-P> :FZF<CR>
+nnoremap <C-B> :Buffers<CR>
+
+" Dispatch map
+nnoremap <F9> :Dispatch<CR>
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
