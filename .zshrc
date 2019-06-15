@@ -13,3 +13,7 @@ function sz {
 	source ~/.zshenv
 	source ~/.zshrc
 }
+
+# ls
+alias l="ls -Flh"
+alias la="ls -FAlh"
