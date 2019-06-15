@@ -1,3 +1,6 @@
+# start SSH agent
+eval "$(ssh-agent -s)"
+
 # git
 function g {
 	if [[ $# -gt 0 ]]
