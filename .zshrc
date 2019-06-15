@@ -20,3 +20,6 @@ function sz {
 # ls
 alias l="ls -Flh"
 alias la="ls -FAlh"
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
