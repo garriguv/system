@@ -1,5 +1,7 @@
 # system
 
+Experimenting with [clear linux] and [i3wm].
+
 ## vim
 
 ### Packages
@@ -24,3 +26,6 @@ After installing or updating a package, make sure to re-generate the
 documentation using:
 
     :helptags ALL
+
+[clear linux]: https://clearlinux.org
+[i3wm]: https://i3wm.org
