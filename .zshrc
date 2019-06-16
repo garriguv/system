@@ -1,5 +1,6 @@
 # start SSH agent
-eval "$(ssh-agent -s)"
+. $HOME/system/scripts/ssh-find-agent/ssh-find-agent.sh
+ssh_find_agent -a || eval $(ssh-agent) > /dev/null
 
 # git
 function g {
