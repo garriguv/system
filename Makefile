@@ -3,6 +3,7 @@ install:
 	ln -sf $(shell pwd)/.zshenv ~/.zshenv
 	ln -sf $(shell pwd)/.zshrc ~/.zshrc
 	ln -sf $(shell pwd)/.vimrc ~/.vimrc
+	ln -sf $(shell pwd)/.gitconfig ~/.gitconfig
 	ln -sf $(shell pwd)/.config/i3/config ~/.config/i3/config
 
 vim-install:

@@ -1,0 +1,43 @@
+[user]
+  email = vincent.garrigues@gmail.com
+  name = Vincent Garrigues
+
+[alias]
+  s        = status
+  c        = commit
+  p        = push
+  co       = checkout
+  cb       = checkout -b
+  rev      = rev-parse --short HEAD
+  subup    = submodule update --recursive --init
+  subclean = submodule foreach --recursive git clean -xfdf
+  subreset = submodule foreach --recursive git reset --hard
+  df       = diff
+  pr       = pull --rebase
+  puff     = pull --ff-only
+  praise   = blame
+  lg       = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[branch "master"]
+  mergeoptions = --no-ff
+
+[color]
+  branch = auto
+  diff   = auto
+  status = auto
+  ui     = true
+
+[pull]
+  ff = only
+
+[push]
+  default = simple
+
+[rebase]
+  autoStash = true
+
+[remote "origin"]
+  prune = true
+
+[url "git@github.com:"]
+  insteadOf = https://github.com/
