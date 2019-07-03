@@ -55,3 +55,6 @@
 [submodule "scripts/ssh-find-agent"]
 	path = scripts/ssh-find-agent
 	url = git@github.com:wwalker/ssh-find-agent.git
+[submodule ".vim/pack/garriguv/start/vim-monokai-pro"]
+	path = .vim/pack/garriguv/start/vim-monokai-pro
+	url = git@github.com:phanviet/vim-monokai-pro.git
