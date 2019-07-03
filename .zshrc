@@ -24,3 +24,6 @@ alias la="ls -FAlh"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Local configuration
+[ -f ~/.local.zsh ] && source ~/.local.zsh
