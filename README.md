@@ -1,6 +1,6 @@
 # system
 
-Experimenting with [clear linux] and [i3wm].
+Experimenting with [clear linux] and [i3wm]. Also redoing my dotfiles for the 3rd time.
 
 ## vim
 
