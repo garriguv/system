@@ -9,5 +9,7 @@
     ],
     "editor.renderWhitespace": "boundary",
     "editor.copyWithSyntaxHighlighting": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "git.confirmSync": false,
+    "git.autofetch": true
 }
