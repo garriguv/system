@@ -1,0 +1,13 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.highlightedyank.enable": true,
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+        }
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.lineNumbers": "relative"
+}
