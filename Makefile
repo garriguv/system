@@ -13,4 +13,4 @@ install:
 vim-update:
 	git submodule update --remote
 
-.PHONY: install, vim-update
+.PHONY: install vim-update

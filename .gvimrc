@@ -1,2 +1,2 @@
 " Set font
-	set guifont=Go\ Mono:h14
+set guifont=Go\ Mono:h14
