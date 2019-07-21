@@ -1,6 +1,14 @@
-# start SSH agent
-. $HOME/system/scripts/ssh-find-agent/ssh-find-agent.sh
-ssh_find_agent -a || eval $(ssh-agent) > /dev/null
+# oh-my-zsh configuration
+export ZSH="/Users/garriguv/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+plugins=(ssh-agent)
+
+# ssh-agent configuration
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+
+source $ZSH/oh-my-zsh.sh
 
 # git
 function g {
