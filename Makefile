@@ -6,6 +6,7 @@ install:
 	ln -sf $(shell pwd)/.gvimrc ~/.gvimrc
 	ln -sf $(shell pwd)/.ideavimrc ~/.ideavimrc
 	ln -sf $(shell pwd)/.gitconfig ~/.gitconfig
+	ln -sf $(shell pwd)/.gitignore ~/.gitignore
 	ln -sf $(shell pwd)/.vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 	ln -sfnF $(shell pwd)/.vim/pack/ ~/.vim/pack
 	ln -sfnF $(shell pwd)/.vim/ftplugin/ ~/.vim/ftplugin

@@ -43,4 +43,5 @@
   insteadOf = https://github.com/
 
 [core]
-  editor = code --wait
+  editor       = code --wait
+  excludesfile = ~/.gitignore
