@@ -11,5 +11,8 @@
     "editor.copyWithSyntaxHighlighting": false,
     "editor.lineNumbers": "relative",
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "git.detectSubmodulesLimit": 20,
+    "git.enableCommitSigning": true
 }
