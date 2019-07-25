@@ -16,5 +16,6 @@
     "git.detectSubmodulesLimit": 20,
     "git.enableCommitSigning": true,
     "editor.fontFamily": "'Go Mono', Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "window.newWindowDimensions": "maximized"
 }
