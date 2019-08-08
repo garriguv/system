@@ -1,5 +1,5 @@
 # oh-my-zsh configuration
-export ZSH="/Users/garriguv/.oh-my-zsh"
+export ZSH="/Users/$(whoami)/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
