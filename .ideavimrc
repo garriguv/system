@@ -31,3 +31,6 @@ imap jj <Esc>
 " IntelliJ action
 map <Space>r :action Run<CR>
 map <Space>d :action Debug<CR>
+
+" Copy / Past
+set clipboard+=ideaput
