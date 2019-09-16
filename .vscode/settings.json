@@ -17,5 +17,6 @@
     "git.enableCommitSigning": true,
     "editor.fontFamily": "'Go Mono', Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
-    "window.newWindowDimensions": "maximized"
+    "window.newWindowDimensions": "maximized",
+    "go.useLanguageServer": true
 }
