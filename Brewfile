@@ -1,23 +1,23 @@
-cloc
-diff-so-fancy
-ffmpeg
-fzf
-git
-git-lfs
-go
-graphviz
-httpie
-hub
-jq
-kubernetes-cli
-lame
-mysql
-rbenv
-ripgrep
-shellcheck
-sqlite
-tig
-tree
-vim
-watch
-zsh
+brew "cloc"
+brew "diff-so-fancy"
+brew "ffmpeg"
+brew "fzf"
+brew "git"
+brew "git-lfs"
+brew "go"
+brew "graphviz"
+brew "httpie"
+brew "hub"
+brew "jq"
+brew "kubernetes-cli"
+brew "lame"
+brew "mysql"
+brew "rbenv"
+brew "ripgrep"
+brew "shellcheck"
+brew "sqlite"
+brew "tig"
+brew "tree"
+brew "vim"
+brew "watch"
+brew "zsh"
