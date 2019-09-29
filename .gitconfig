@@ -45,3 +45,6 @@
 [core]
   editor       = code --wait
   excludesfile = ~/.gitignore
+
+[commit]
+	gpgsign = true
