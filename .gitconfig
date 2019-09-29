@@ -1,5 +1,4 @@
 [user]
-  email = vincent.garrigues@gmail.com
   name = Vincent Garrigues
 
 [alias]
@@ -48,3 +47,9 @@
 
 [commit]
 	gpgsign = true
+
+[includeIf "gitdir:soundcloud/"]
+  path = .gitconfig-soundcloud
+
+[includeIf "gitdir:garriguv/"]
+  path = .gitconfig-garriguv
