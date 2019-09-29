@@ -35,3 +35,6 @@ alias la="ls -FAlh"
 
 # Local configuration
 [ -f ~/.local.zsh ] && source ~/.local.zsh
+
+# rbenv
+eval "$(rbenv init -)"
