@@ -7,6 +7,7 @@
   p        = push
   co       = checkout
   cb       = checkout -b
+  ct       = checkout --track
   rev      = rev-parse --short HEAD
   subup    = submodule update --recursive --init
   subclean = submodule foreach --recursive git clean -xfdf
@@ -14,7 +15,6 @@
   df       = diff
   pr       = pull --rebase
   puff     = pull --ff-only
-  praise   = blame
   lg       = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [branch "master"]
