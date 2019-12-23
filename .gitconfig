@@ -53,3 +53,6 @@
 
 [includeIf "gitdir:garriguv/"]
   path = .gitconfig-garriguv
+
+[includeIf "gitdir:uikonf/"]
+  path = .gitconfig-garriguv
