@@ -14,6 +14,7 @@ install:
 	ln -sfnF $(shell pwd)/.vim/ftplugin/ ~/.vim/ftplugin
 	mkdir -p ~/bin
 	brew bundle
+	./defaults.sh
 
 vim-update:
 	git submodule update --remote
