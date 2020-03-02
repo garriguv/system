@@ -38,3 +38,6 @@ alias la="ls -FAlh"
 
 # rbenv
 eval "$(rbenv init -)"
+
+# ruby
+alias be="bundle exec"
