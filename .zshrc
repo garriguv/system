@@ -3,7 +3,7 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=(ssh-agent)
+plugins=(ssh-agent z)
 
 # ssh-agent configuration
 zstyle :omz:plugins:ssh-agent agent-forwarding on
