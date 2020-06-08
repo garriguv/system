@@ -45,11 +45,11 @@
   editor       = code --wait
   excludesfile = ~/.gitignore
 
-[commit]
-	gpgsign = true
-
 [includeIf "gitdir:soundcloud/"]
   path = .gitconfig-soundcloud
+
+[includeIf "gitdir:github.bus.zalan.do/"]
+  path = .gitconfig-zalando
 
 [includeIf "gitdir:garriguv/"]
   path = .gitconfig-garriguv
