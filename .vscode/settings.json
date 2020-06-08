@@ -19,5 +19,11 @@
     "editor.fontSize": 14,
     "window.newWindowDimensions": "maximized",
     "go.useLanguageServer": true,
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#005f5f",
+      "statusBar.noFolderBackground": "#005f5f",
+      "statusBar.debuggingBackground": "#005f5f"
+    }
 }
