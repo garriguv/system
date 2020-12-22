@@ -1,6 +1,6 @@
 " Color Scheme
 set termguicolors
-colorscheme monokai_pro
+" colorscheme monokai_pro
 
 " Open splits below and right
 set splitbelow
