@@ -45,11 +45,8 @@
   editor       = code --wait
   excludesfile = ~/.gitignore
 
-[includeIf "gitdir:soundcloud/"]
-  path = .gitconfig-soundcloud
-
-[includeIf "gitdir:github.bus.zalan.do/"]
-  path = .gitconfig-zalando
+[includeIf "gitdir:dance/"]
+  path = .gitconfig-dance
 
 [includeIf "gitdir:garriguv/"]
   path = .gitconfig-garriguv

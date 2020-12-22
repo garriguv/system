@@ -55,3 +55,6 @@
 [submodule ".vim/pack/garriguv/start/vim-monokai-pro"]
 	path = .vim/pack/garriguv/start/vim-monokai-pro
 	url = git@github.com:phanviet/vim-monokai-pro.git
+[submodule ".vim/pack/garriguv/start/vim-polyglot"]
+	path = .vim/pack/garriguv/start/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
