@@ -37,7 +37,7 @@ alias la="ls -FAlh"
 [ -f ~/.local.zsh ] && source ~/.local.zsh
 
 # rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # ruby
 alias be="bundle exec"
