@@ -37,7 +37,11 @@ alias la="ls -FAlh"
 [ -f ~/.local.zsh ] && source ~/.local.zsh
 
 # rbenv
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
+
+# Homebrew
+alias ibrew="arch -x86_64 /usr/local/bin/brew"
+alias mbrew="arch -arm64 /opt/homebrew/bin/brew"
 
 # ruby
 alias be="bundle exec"
