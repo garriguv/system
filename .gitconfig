@@ -45,7 +45,7 @@
   editor       = code --wait
   excludesfile = ~/.gitignore
 
-[includeIf "gitdir:dance/"]
+[includeIf "gitdir:dance-electric/"]
   path = .gitconfig-dance
 
 [includeIf "gitdir:garriguv/"]
