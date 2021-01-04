@@ -53,3 +53,6 @@
 
 [includeIf "gitdir:uikonf/"]
   path = .gitconfig-garriguv
+
+[init]
+	defaultBranch = main
