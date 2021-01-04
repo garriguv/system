@@ -17,6 +17,9 @@
   puff     = pull --ff-only
   lg       = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
+[branch "main"]
+  mergeoptions = --no-ff
+
 [branch "master"]
   mergeoptions = --no-ff
 
