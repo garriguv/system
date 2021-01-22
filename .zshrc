@@ -11,19 +11,30 @@ zstyle :omz:plugins:ssh-agent agent-forwarding on
 source $ZSH/oh-my-zsh.sh
 
 # git
-function g {
-	if [[ $# -gt 0 ]]
-	then
+function g() {
+	if [[ $# -gt 0 ]]; then
 		git "$@"
 	else
 		git status --short --branch
 	fi
 }
 
+# npm
+function npm-do() {
+	PATH=$(npm bin):$PATH
+	eval $@
+}
+
 # reload configuration
-function sz {
+function sz() {
 	source ~/.zshenv
 	source ~/.zshrc
+}
+
+# clear derived data
+function rmdd() {
+	rm -rf ~/Library/Developer/Xcode/DerivedData/
+	echo "😭"
 }
 
 # ls
