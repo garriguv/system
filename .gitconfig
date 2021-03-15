@@ -23,6 +23,9 @@
 [branch "master"]
   mergeoptions = --no-ff
 
+[checkout]
+  defaultRemote = origin
+
 [color]
   branch = auto
   diff   = auto
