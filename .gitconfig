@@ -45,7 +45,7 @@
   prune = true
 
 [core]
-  editor       = code --wait
+  editor       = subl -w
   excludesfile = ~/.gitignore
 
 [includeIf "gitdir:dance-electric/"]

@@ -1,5 +1,5 @@
 # Set default editor
-export EDITOR="code --wait"
+export EDITOR="subl -w"
 
 # Color ls output
 export CLICOLOR=1
